@@ -28,7 +28,9 @@ class MainActivity : BaseActivity() {
 
     override fun setValues() {
 
-        Glide.with(mContext).load("https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.newdaily.co.kr%2Fsite%2Fdata%2Fhtml%2F2019%2F12%2F27%2F2019122700187.html&psig=AOvVaw1YZDpIARpPkPFL629e3ko7&ust=1591584414172000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKjEj5bY7ukCFQAAAAAdAAAAABAD").into(profileImg)
+     //   Glide.with(mContext).load("https://joonganglawnews.com/data/photos/adexpo/202003/N202003031041441.jpg").into(profileImg)
+        Glide.with(mContext).load("http://file2.nocutnews.co.kr/newsroom/image/2018/07/18/20180718120948825781_0_420_600.jpg").into(profileImg)
+
     }
 
 
